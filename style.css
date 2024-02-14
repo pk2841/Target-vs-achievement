@@ -123,37 +123,30 @@ button:hover {
             color: white; 
         }
         
-                /* Header row */
-            .resultTable th {
-                background-color: #4CAF50;
-                color: white;
-            }
-
-            /* Orange rows */
+                            /* Orange rows */
             .resultTable tr:nth-child(-n + 3) td,
             .resultTable tr:nth-child(-n + 3) th {
                 background-color: #FFA500;
             }
 
-            /* Blue rows */
+            /* Green rows */
             .resultTable tr:nth-child(n + 4):nth-child(-n + 6) td,
             .resultTable tr:nth-child(n + 4):nth-child(-n + 6) th {
-                background-color: #0000FF;
-            }
-
-            Green rows
-            .resultTable tr:nth-last-child(-n + 4) td,
-            .resultTable tr:nth-last-child(-n + 4) th {
                 background-color: #4CAF50;
             }
 
-            /* Separate styling for the last row */
-            .resultTable tr:last-child td,
-            .resultTable tr:last-child th {
-                background-color: #8A2BE2; /* Customize the color as needed */
-                color: white;
-                font-weight: bold;
+            /* Blue rows */
+            .resultTable tr:nth-child(n + 7):nth-child(-n + 8) td,
+            .resultTable tr:nth-child(n + 7):nth-child(-n + 8) th {
+                background-color: #0000FF;
             }
+
+            /* Purple rows */
+            .resultTable tr:nth-last-child(-n + 3) td,
+            .resultTable tr:nth-last-child(-n + 3) th {
+                background-color: #8A2BE2;
+            }
+
 
 
         
