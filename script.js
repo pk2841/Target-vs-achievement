@@ -1,6 +1,6 @@
 function init() {
     gapi.client.init({
-        apiKey: 'AIzaSyClERKAVft1-DM1C7OuJx0aWe9DzF15rMc',
+        apiKey: 'AIzaSyB5A2B9GAy9gVLpGS1Bef7yWGoyMm_LVHQ',
         discoveryDocs: ["https://sheets.googleapis.com/$discovery/rest?version=v4"],
     });
 }
