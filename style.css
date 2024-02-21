@@ -123,7 +123,7 @@ button:hover {
             color: white; 
         }
         
-                            /* Orange rows */
+                    /* Yellow rows */
             .resultTable tr:nth-child(-n + 3) td,
             .resultTable tr:nth-child(-n + 3) th {
                 background-color: #FFA500;
@@ -132,20 +132,21 @@ button:hover {
             /* Green rows */
             .resultTable tr:nth-child(n + 4):nth-child(-n + 6) td,
             .resultTable tr:nth-child(n + 4):nth-child(-n + 6) th {
-                background-color: #4CAF50;
+                background-color: #29732c;
             }
 
             /* Blue rows */
-            .resultTable tr:nth-child(n + 7):nth-child(-n + 8) td,
-            .resultTable tr:nth-child(n + 7):nth-child(-n + 8) th {
+            .resultTable tr:nth-child(n + 7):nth-child(-n + 9) td,
+            .resultTable tr:nth-child(n + 7):nth-child(-n + 9) th {
                 background-color: #0000FF;
             }
 
             /* Purple rows */
-            .resultTable tr:nth-last-child(-n + 3) td,
-            .resultTable tr:nth-last-child(-n + 3) th {
+            .resultTable tr:nth-child(n + 10):nth-child(-n + 12) td,
+            .resultTable tr:nth-child(n + 10):nth-child(-n + 12) th {
                 background-color: #8A2BE2;
             }
+
 
 
 
